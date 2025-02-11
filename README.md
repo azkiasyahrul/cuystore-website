@@ -1,1 +1,197 @@
-# cuystore-website
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- PROMOTION  -->
+    <div class="bg-indigo-600 px-4 py-3 text-white">
+        <p class="text-center text-sm font-medium">
+            PROMO HINGA 50%
+            <a href="#" class="inline-block underline">berlaku untuk hari ini saja!</a>
+        </p>
+    </div>
+    <!-- END PROMOTION -->
+
+    <!-- NAVBAR  -->
+    <header class="bg-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+            <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">CUY STORE</h1>
+
+                    <p class="mt-1.5 text-sm text-gray-500">
+                        Belanja koleksi langka & murah
+                    </p>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <a href="cara belanja.html"
+                        class="inline-flex items-center justify-center gap-1.5 rounded-sm border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-gray-700 focus:ring-3 focus:outline-hidden"
+                        type="button">
+                        <span class="text-sm font-medium"> Cara Belanja </span>
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </a>
+
+                    <a href="https://wa.me/62895604040044?text=chat dengan admin">
+                        <button style="cursor: pointer"
+                            class="inline-block rounded-sm bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:ring-3 focus:outline-hidden"
+                            type="button ">
+                            Chat Admin
+
+                        </button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END NAVBAR  -->
+
+    <!-- CALL TO ACTION  -->
+    <section class="bg-gray-50">
+        <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+            <div class="mx-auto max-w-lg text-center">
+                <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+                    Selamat Datang di Cuy Store - Pilihan Terbaik untuk Kebutuhan vintage Anda
+                </h2>
+
+                <p class="hidden text-gray-500 sm:mt-4 sm:block">
+                    Selamat datang di Cuy Store, tempat terbaik untuk menemukan produk berkualitas dengan harga
+                    terjangkau. Kami menyediakan berbagai pilihan produk yang sesuai dengan kebutuhan Anda, khususnya
+                    koleksi vintage. Belanja mudah, cepat, dan aman hanya di Cuy Store. Temukan penawaran menarik setiap
+                    hari!
+                </p>
+            </div>
+
+            <div class="mx-auto mt-8 max-w-xl">
+                <form action="#" class="sm:flex sm:gap-4">
+                    <div class="sm:flex-1">
+
+                        <input type="Text" placeholder="Vintage clock"
+                            class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-xs transition focus:border-white focus:ring-3 focus:ring-indigo-400 focus:outline-hidden" />
+                    </div>
+
+                    <button type="submit"
+                        class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-indigo-600 px-5 py-3 text-white transition focus:ring-3 focus:ring-indigo-400 focus:outline-hidden sm:mt-0 sm:w-auto">
+                        <span class="text-sm font-medium"> Cari Barang </span>
+
+                        <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--  END CALL TO ACTION  -->
+
+    <!-- PRODUCT LIST  -->
+    <div class="grid grid-cols-3 gap-4 max-w-xl mx-auto py-8">
+        <a href="https://wa.me/62895604040044?text=Cuystore saya mau beli produk Vintage Clock" class="group block">
+            <img src="https://images.unsplash.com/photo-1604151967103-ac170263808e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="aspect-square w-full rounded object-cover" />
+
+            <div class="mt-3">
+                <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    Vintage Clock
+                </h3>
+
+                <p class="mt-1 text-sm text-gray-700">Rp1.500.000</p>
+            </div>
+        </a>
+
+        <a href="https://wa.me/62895604040044?text=Cuystore saya mau beli produk Mesin Ketik Jadul 1925"
+            class="group block">
+            <img src="https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?q=80&w=792&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="aspect-square w-full rounded object-cover" />
+
+            <div class="mt-3">
+                <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    Mesin Ketik Jadul 1925
+                </h3>
+
+                <p class="mt-1 text-sm text-gray-700">Rp13.000.000</p>
+            </div>
+        </a>
+
+        <a href="https://wa.me/62895604040044?text=Cuystore saya mau beli produk Buku Sejarah Dunia"
+            class="group block">
+            <img src="https://plus.unsplash.com/premium_photo-1682125773446-259ce64f9dd7?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="aspect-square w-full rounded object-cover" />
+
+            <div class="mt-3">
+                <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    Buku Sejarah Dunia
+                </h3>
+
+                <p class="mt-1 text-sm text-gray-700">Rp5.000.000</p>
+            </div>
+        </a>
+
+        <a href="https://wa.me/62895604040044?text=Cuystore saya mau beli produk Kamera Jadul 1987" class="group block">
+            <img src="https://images.unsplash.com/photo-1520549233664-03f65c1d1327?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="aspect-square w-full rounded object-cover" />
+
+            <div class="mt-3">
+                <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    Kamera Jadul 1987
+                </h3>
+
+                <p class="mt-1 text-sm text-gray-700">Rp9.000.000</p>
+            </div>
+        </a>
+
+        <a href="https://wa.me/62895604040044?text=Cuystore saya mau beli produk Mesin Kopi" class="group block">
+            <img src="https://images.unsplash.com/photo-1461988366670-48e401bafb0a?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="aspect-square w-full rounded object-cover" />
+
+            <div class="mt-3">
+                <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    Mesin Kopi
+                </h3>
+
+                <p class="mt-1 text-sm text-gray-700">Rp12.000.000</p>
+            </div>
+        </a>
+
+        <a href="https://wa.me/62895604040044?text=Cuystore saya mau beli produk Sepeda Langka" class="group block">
+            <img src="https://images.unsplash.com/photo-1517950076344-ca482648caed?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="" class="aspect-square w-full rounded object-cover" />
+
+            <div class="mt-3">
+                <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    Sepeda Langka
+                </h3>
+
+                <p class="mt-1 text-sm text-gray-700">Rp25.000.000</p>
+            </div>
+        </a>
+
+    </div>
+    <!-- END PRODUCT LIST  -->
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-50">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <div class="flex justify-center text-indigo-400 sm:justify-start font-bold">
+                    Cuystore
+                </div>
+
+                <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+                    Copyright &copy; 2025. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+</body>
+
+</html>
